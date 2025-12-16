@@ -6,6 +6,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
+COPY model.py .
+COPY config.py .
 COPY best_model_params.pt .
 
 EXPOSE 8000
