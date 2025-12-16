@@ -3,8 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 from dataclasses import dataclass
-import numpy as np
-from tqdm.auto import tqdm
 from contextlib import nullcontext
 import os
 
