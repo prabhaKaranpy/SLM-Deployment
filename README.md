@@ -50,3 +50,4 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 
 *Note: Ensure your Hugging Face token has `WRITE` permissions when pushing LFS files.*
 
+**🔗 Live API:** [https://huggingface.co/spaces/prabha36/slm-deploy](https://huggingface.co/spaces/prabha36/slm-deploy)
