@@ -50,6 +50,3 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 
 *Note: Ensure your Hugging Face token has `WRITE` permissions when pushing LFS files.*
 
-## 📄 License
-
-MIT
