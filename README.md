@@ -4,7 +4,7 @@ A lightweight, containerized API for serving a custom Small Language Model (SLM)
 
 Designed for easy deployment on Docker and Hugging Face Spaces.
 
-## 📋 Features
+##  Features
 
 * **Custom GPT Architecture:** A decoder-only transformer model implemented from scratch (Causal Self-Attention, LayerNorm, GELU).
 * **FastAPI Backend:** High-performance, easy-to-use API with automatic Swagger documentation.
@@ -12,7 +12,7 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 * **CPU Optimized:** Configured to run efficiently on standard CPU hardware.
 * **Tokenizer:** Uses OpenAI's `tiktoken` (GPT-2 encoding) for efficient tokenization.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.10
 * **ML Framework:** PyTorch
@@ -21,7 +21,7 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```bash
 ├── app.py                 # FastAPI application and endpoints
@@ -32,7 +32,7 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 ├── requirements.txt       # Python dependencies
 └── .gitattributes         # Git LFS tracking for model files
 ```
-## 🗝️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Python 3.10+
@@ -50,4 +50,4 @@ Designed for easy deployment on Docker and Hugging Face Spaces.
 
 *Note: Ensure your Hugging Face token has `WRITE` permissions when pushing LFS files.*
 
-**🔗 Live API:** [https://huggingface.co/spaces/prabha36/slm-deploy](https://huggingface.co/spaces/prabha36/slm-deploy)
+** Live API:** [https://huggingface.co/spaces/prabha36/slm-deploy](https://huggingface.co/spaces/prabha36/slm-deploy)
